@@ -2,4 +2,4 @@
 python demo.py --dataset bdgp --miss_rate 0.1
 
 # Acknowledgements
-We appreciate the Pytorch implementation on DS3L (https://www.lamda.nju.edu.cn/code_DS3L.ashx?AspxAutoDetectCookieSupport=1), Meta-Net (https://github.com/xjtushujun/meta-weight-ne) and learning-to-reweight-examples(https://github.com/danieltan07/learning-to-reweight-examples).
+We thank the Pytorch implementation on DS3L (https://www.lamda.nju.edu.cn/code_DS3L.ashx?AspxAutoDetectCookieSupport=1), Meta-Net (https://github.com/xjtushujun/meta-weight-ne) and learning-to-reweight-examples(https://github.com/danieltan07/learning-to-reweight-examples).
