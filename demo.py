@@ -40,12 +40,12 @@ data_list, Y, dims, total_view, data_size, class_num = load_data(args.dataset)
 view = total_view
 miss_rate = args.miss_rate
 incomplete_loader = None
-record_data_list = copy.deepcopy(data_list)
 
 if args.dataset not in ['ccv']:
     for v in range(total_view):
         min_max_scaler = MinMaxScaler()
         data_list[v] = min_max_scaler.fit_transform(data_list[v])
+record_data_list = copy.deepcopy(data_list)
 
 
 if args.dataset == 'bdgp':
