@@ -63,7 +63,7 @@ if args.dataset == 'ccv':
 if args.dataset == 'multi-fashion':
     args.initial_epochs = 100
     args.pretrain_epochs = 200
-    iterations = 300
+    args.iterations = 300
 
 
 def get_model():
